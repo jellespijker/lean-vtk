@@ -19,7 +19,7 @@ class LeanVTKConan(ConanFile):
         "fPIC": [True, False]
     }
     default_options = {
-        "build_testing": False,
+        "build_testing": True,
         "shared": True,
         "fPIC": False
     }

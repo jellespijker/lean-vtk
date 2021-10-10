@@ -10,8 +10,6 @@ set(LeanVTK_TEST_HEADER
     catch.hpp
 )
 
-PREPEND(LeanVTK_TEST_SRC)
-
 # Make an executable target that depends on the test source code we specified
 # above.
 add_executable(TestLeanVTK ${LeanVTK_TEST_SRC} ${LeanVTK_TEST_HEADER})
