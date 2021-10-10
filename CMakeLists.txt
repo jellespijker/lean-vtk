@@ -61,7 +61,7 @@ endif()
 
 # Add the library LeanVTK as a target, with the contents of src/ and include/
 # as dependencies.
-add_library(LeanVTK STATIC ${LeanVTK_SRC} ${LeanVTK_INC})
+add_library(LeanVTK ${LeanVTK_SRC} ${LeanVTK_INC})
 
 # These variables slightly modify the install location to allow for version
 # specific installations.
